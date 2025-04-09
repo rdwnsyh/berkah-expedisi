@@ -23,45 +23,49 @@
 
 </section><!-- /Hero Section -->
 
-<!-- About Section -->
-<section id="about" class="about section">
+<section id="features" class="features section">
 
+  
   <div class="container">
-
-    <div class="row gy-4">
-      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-        <h3>Voluptatem dignissimos provident laboris nisi ut aliquip ex ea commodo</h3>
-        <img src="assets/img/about.jpg" class="img-fluid rounded-4 mb-4" alt="">
-        <p>Ut fugiat ut sunt quia veniam. Voluptate perferendis perspiciatis quod nisi et. Placeat debitis quia recusandae odit et consequatur voluptatem. Dignissimos pariatur consectetur fugiat voluptas ea.</p>
-        <p>Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nihil vitae quo officia vel. Blanditiis eligendi possimus et in cum. Quidem eos ut sint rem veniam qui. Ut ut repellendus nobis tempore doloribus debitis explicabo similique sit. Accusantium sed ut omnis beatae neque deleniti repellendus.</p>
-      </div>
-      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="250">
-        <div class="content ps-0 ps-lg-5">
-          <p class="fst-italic">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua.
-          </p>
-          <ul>
-            <li><i class="bi bi-check-circle-fill"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-            <li><i class="bi bi-check-circle-fill"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-            <li><i class="bi bi-check-circle-fill"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
-          </ul>
-          <p>
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
-          </p>
-
-          <div class="position-relative mt-4">
-            <img src="assets/img/about-2.jpg" class="img-fluid rounded-4" alt="">
-            <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>
+    
+    <!-- Section Title -->
+    <div class="section-title" data-aos="fade-up">
+      <h2 class="text-primary">Tentang Kami</h2>
+      <p>Handal dan Terpercaya<br></p>
+    </div><!-- End Section Title -->
+    <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+      
+      <div class="tab-pane fade active show" id="features-tab-1">
+        <div class="row">
+          <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+            <h3>Selamat datang di CV BERKAH EXPEDISI mitra Transportasi handal untuk kebutuhan
+            pengiriman barang Anda.</h3>
+            <p>
+            Seiring dengan berkembangnya dunia usaha dan distribusi barang di Indonesia, kebutuhan akan
+layanan ekspedisi yang Tepat, aman, dan terpercaya semakin meningkat. Kami hadir sebagai
+solusi Transportasi profesional yang mengutamakan kepuasan pelanggan, ketepatan waktu, serta
+keamanan barang. Dengan dukungan armada mulai dari engkel box hingga double box, serta tim
+yang berpengalaman di bidang transportasi dan distribusi, CV BERKAH EXPEDISI siap
+menjadi bagian penting dalam rantai pasok bisnis Anda. Kami percaya bahwa setiap pengiriman
+adalah amanah. Oleh karena itu, kami selalu berkomitmen memberikan pelayanan terbaik,
+transparan, dan efisien hingga barang sampai di tujuan dengan selamat dan tepat waktu. CV
+BERKAH EXPEDISI Adalah Perusahaan expedisi yang berdiri sejak 30 April Tahun 2020
+Dengan Nomor Induk Perusahaan NIB (0220100550043) Melayani pengiriman berbagai macam
+barang dengan Armada Engkel Box hingga Double Box Truck , kami siap mendukung logistik
+bisnis anda dengan kondisi Unit yang sehat dan Taat peraturan
+            </p>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 text-center">
+            <img src="assets/img/working-1.jpg" alt="" class="img-fluid">
           </div>
         </div>
-      </div>
+      </div><!-- End Tab Content Item -->
     </div>
 
   </div>
 
-</section><!-- /About Section -->
+</section><!-- /Features Section -->
+
 
 <!-- Stats Section -->
 <section id="stats" class="stats section light-background">
@@ -121,8 +125,8 @@
 
   <!-- Section Title -->
   <div class="container section-title" data-aos="fade-up">
-    <h2>Services</h2>
-    <p>Featured Srvices<br></p>
+    <h2 class="text-primary">Armada</h2>
+    <p>Armada Kami<br></p>
   </div><!-- End Section Title -->
 
   <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -131,51 +135,39 @@
 
       <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
         <div class="service-item">
-          <div class="img">
+          <div class="img position-relative">
             <img src="assets/img/services-1.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="details position-relative">
-            <div class="icon">
-              <i class="bi bi-activity"></i>
-            </div>
-            <a href="service-details.html" class="stretched-link">
+            <div class="service-content">
               <h3>Nesciunt Mete</h3>
-            </a>
-            <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis.</p>
+              <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis.</p>
+              <a href="#" type="button" class="btn btn-primary mt-3">Learn More</a>
+            </div>
           </div>
         </div>
       </div><!-- End Service Item -->
 
       <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
         <div class="service-item">
-          <div class="img">
+          <div class="img position-relative">
             <img src="assets/img/services-2.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="details position-relative">
-            <div class="icon">
-              <i class="bi bi-broadcast"></i>
-            </div>
-            <a href="service-details.html" class="stretched-link">
+            <div class="service-content">
               <h3>Eosle Commodi</h3>
-            </a>
-            <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+              <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+              <a href="#" type="button" class="btn btn-primary mt-3">Learn More</a>
+            </div>
           </div>
         </div>
       </div><!-- End Service Item -->
 
       <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
         <div class="service-item">
-          <div class="img">
+          <div class="img position-relative">
             <img src="assets/img/services-3.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="details position-relative">
-            <div class="icon">
-              <i class="bi bi-easel"></i>
-            </div>
-            <a href="service-details.html" class="stretched-link">
+            <div class="service-content">
               <h3>Ledo Markt</h3>
-            </a>
-            <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
+              <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
+              <a href="#" type="button" class="btn btn-primary mt-3">Learn More</a>
+            </div>
           </div>
         </div>
       </div><!-- End Service Item -->
@@ -186,264 +178,6 @@
 
 </section><!-- /Services Section -->
 
-<!-- Clients Section -->
-<section id="clients" class="clients section light-background">
-
-  <div class="container" data-aos="fade-up">
-
-    <div class="row gy-4">
-
-      <div class="col-xl-2 col-md-3 col-6 client-logo">
-        <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
-      </div><!-- End Client Item -->
-
-      <div class="col-xl-2 col-md-3 col-6 client-logo">
-        <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
-      </div><!-- End Client Item -->
-
-      <div class="col-xl-2 col-md-3 col-6 client-logo">
-        <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
-      </div><!-- End Client Item -->
-
-      <div class="col-xl-2 col-md-3 col-6 client-logo">
-        <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
-      </div><!-- End Client Item -->
-
-      <div class="col-xl-2 col-md-3 col-6 client-logo">
-        <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
-      </div><!-- End Client Item -->
-
-      <div class="col-xl-2 col-md-3 col-6 client-logo">
-        <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
-      </div><!-- End Client Item -->
-
-    </div>
-
-  </div>
-
-</section><!-- /Clients Section -->
-
-<!-- Features Section -->
-<section id="features" class="features section">
-
-  <div class="container">
-
-    <ul class="nav nav-tabs row  d-flex" data-aos="fade-up" data-aos-delay="100">
-      <li class="nav-item col-3">
-        <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
-          <i class="bi bi-binoculars"></i>
-          <h4 class="d-none d-lg-block">Modi sit est dela pireda nest</h4>
-        </a>
-      </li>
-      <li class="nav-item col-3">
-        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
-          <i class="bi bi-box-seam"></i>
-          <h4 class="d-none d-lg-block">Unde praesenti mara setra le</h4>
-        </a>
-      </li>
-      <li class="nav-item col-3">
-        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3">
-          <i class="bi bi-brightness-high"></i>
-          <h4 class="d-none d-lg-block">Pariatur explica nitro dela</h4>
-        </a>
-      </li>
-      <li class="nav-item col-3">
-        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-4">
-          <i class="bi bi-command"></i>
-          <h4 class="d-none d-lg-block">Nostrum qui dile node</h4>
-        </a>
-      </li>
-    </ul><!-- End Tab Nav -->
-
-    <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
-
-      <div class="tab-pane fade active show" id="features-tab-1">
-        <div class="row">
-          <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-            <ul>
-              <li><i class="bi bi-check2-all"></i>
-                <spab>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</spab>
-              </li>
-              <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit</span>.</li>
-              <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
-            </ul>
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
-            </p>
-          </div>
-          <div class="col-lg-6 order-1 order-lg-2 text-center">
-            <img src="assets/img/working-1.jpg" alt="" class="img-fluid">
-          </div>
-        </div>
-      </div><!-- End Tab Content Item -->
-
-      <div class="tab-pane fade" id="features-tab-2">
-        <div class="row">
-          <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-            <h3>Neque exercitationem debitis soluta quos debitis quo mollitia officia est</h3>
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
-            </p>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-            <ul>
-              <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-              <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-              <li><i class="bi bi-check2-all"></i> <span>Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.</span></li>
-              <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
-            </ul>
-          </div>
-          <div class="col-lg-6 order-1 order-lg-2 text-center">
-            <img src="assets/img/working-2.jpg" alt="" class="img-fluid">
-          </div>
-        </div>
-      </div><!-- End Tab Content Item -->
-
-      <div class="tab-pane fade" id="features-tab-3">
-        <div class="row">
-          <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-            <h3>Voluptatibus commodi ut accusamus ea repudiandae ut autem dolor ut assumenda</h3>
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
-            </p>
-            <ul>
-              <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-              <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-              <li><i class="bi bi-check2-all"></i> <span>Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.</span></li>
-            </ul>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-          </div>
-          <div class="col-lg-6 order-1 order-lg-2 text-center">
-            <img src="assets/img/working-3.jpg" alt="" class="img-fluid">
-          </div>
-        </div>
-      </div><!-- End Tab Content Item -->
-
-      <div class="tab-pane fade" id="features-tab-4">
-        <div class="row">
-          <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-            <h3>Omnis fugiat ea explicabo sunt dolorum asperiores sequi inventore rerum</h3>
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
-            </p>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-            <ul>
-              <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-              <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-              <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
-            </ul>
-          </div>
-          <div class="col-lg-6 order-1 order-lg-2 text-center">
-            <img src="assets/img/working-4.jpg" alt="" class="img-fluid">
-          </div>
-        </div>
-      </div><!-- End Tab Content Item -->
-
-    </div>
-
-  </div>
-
-</section><!-- /Features Section -->
-
-<!-- Services 2 Section -->
-<section id="services-2" class="services-2 section light-background">
-
-  <!-- Section Title -->
-  <div class="container section-title" data-aos="fade-up">
-    <h2>Services</h2>
-    <p>CHECK OUR SERVICES</p>
-  </div><!-- End Section Title -->
-
-  <div class="container">
-
-    <div class="row gy-4">
-
-      <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
-        <div class="service-item d-flex position-relative h-100">
-          <i class="bi bi-briefcase icon flex-shrink-0"></i>
-          <div>
-            <h4 class="title"><a href="#" class="stretched-link">Lorem Ipsum</a></h4>
-            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-          </div>
-        </div>
-      </div><!-- End Service Item -->
-
-      <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
-        <div class="service-item d-flex position-relative h-100">
-          <i class="bi bi-card-checklist icon flex-shrink-0"></i>
-          <div>
-            <h4 class="title"><a href="#" class="stretched-link">Dolor Sitema</a></h4>
-            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-          </div>
-        </div>
-      </div><!-- End Service Item -->
-
-      <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
-        <div class="service-item d-flex position-relative h-100">
-          <i class="bi bi-bar-chart icon flex-shrink-0"></i>
-          <div>
-            <h4 class="title"><a href="#" class="stretched-link">Sed ut perspiciatis</a></h4>
-            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-          </div>
-        </div>
-      </div><!-- End Service Item -->
-
-      <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
-        <div class="service-item d-flex position-relative h-100">
-          <i class="bi bi-binoculars icon flex-shrink-0"></i>
-          <div>
-            <h4 class="title"><a href="#" class="stretched-link">Magni Dolores</a></h4>
-            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-          </div>
-        </div>
-      </div><!-- End Service Item -->
-
-      <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
-        <div class="service-item d-flex position-relative h-100">
-          <i class="bi bi-brightness-high icon flex-shrink-0"></i>
-          <div>
-            <h4 class="title"><a href="#" class="stretched-link">Nemo Enim</a></h4>
-            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-          </div>
-        </div>
-      </div><!-- End Service Item -->
-
-      <div class="col-md-6" data-aos="fade-up" data-aos-delay="600">
-        <div class="service-item d-flex position-relative h-100">
-          <i class="bi bi-calendar4-week icon flex-shrink-0"></i>
-          <div>
-            <h4 class="title"><a href="#" class="stretched-link">Eiusmod Tempor</a></h4>
-            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-          </div>
-        </div>
-      </div><!-- End Service Item -->
-
-    </div>
-
-  </div>
-
-</section><!-- /Services 2 Section -->
 
 <!-- Testimonials Section -->
 <section id="testimonials" class="testimonials section dark-background">
@@ -558,243 +292,22 @@
 
 </section><!-- /Testimonials Section -->
 
-<!-- Portfolio Section -->
-<section id="portfolio" class="portfolio section">
-
-  <!-- Section Title -->
-  <div class="container section-title" data-aos="fade-up">
-    <h2>Portfolio</h2>
-    <p>CHECK OUR PORTFOLIO</p>
-  </div><!-- End Section Title -->
-
-  <div class="container">
-
-    <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-      <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-        <li data-filter="*" class="filter-active">All</li>
-        <li data-filter=".filter-app">App</li>
-        <li data-filter=".filter-product">Product</li>
-        <li data-filter=".filter-branding">Branding</li>
-        <li data-filter=".filter-books">Books</li>
-      </ul><!-- End Portfolio Filters -->
-
-      <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-          <div class="portfolio-content h-100">
-            <img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 1</h4>
-              <p>Lorem ipsum, dolor sit amet consectetur</p>
-              <a href="assets/img/portfolio/app-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-            </div>
-          </div>
-        </div><!-- End Portfolio Item -->
-
-        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-          <div class="portfolio-content h-100">
-            <img src="assets/img/portfolio/product-1.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Product 1</h4>
-              <p>Lorem ipsum, dolor sit amet consectetur</p>
-              <a href="assets/img/portfolio/product-1.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-            </div>
-          </div>
-        </div><!-- End Portfolio Item -->
-
-        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-          <div class="portfolio-content h-100">
-            <img src="assets/img/portfolio/branding-1.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Branding 1</h4>
-              <p>Lorem ipsum, dolor sit amet consectetur</p>
-              <a href="assets/img/portfolio/branding-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-            </div>
-          </div>
-        </div><!-- End Portfolio Item -->
-
-        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-          <div class="portfolio-content h-100">
-            <img src="assets/img/portfolio/books-1.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Books 1</h4>
-              <p>Lorem ipsum, dolor sit amet consectetur</p>
-              <a href="assets/img/portfolio/books-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-            </div>
-          </div>
-        </div><!-- End Portfolio Item -->
-
-        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-          <div class="portfolio-content h-100">
-            <img src="assets/img/portfolio/app-2.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 2</h4>
-              <p>Lorem ipsum, dolor sit amet consectetur</p>
-              <a href="assets/img/portfolio/app-2.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-            </div>
-          </div>
-        </div><!-- End Portfolio Item -->
-
-        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-          <div class="portfolio-content h-100">
-            <img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Product 2</h4>
-              <p>Lorem ipsum, dolor sit amet consectetur</p>
-              <a href="assets/img/portfolio/product-2.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-            </div>
-          </div>
-        </div><!-- End Portfolio Item -->
-
-        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-          <div class="portfolio-content h-100">
-            <img src="assets/img/portfolio/branding-2.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Branding 2</h4>
-              <p>Lorem ipsum, dolor sit amet consectetur</p>
-              <a href="assets/img/portfolio/branding-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-            </div>
-          </div>
-        </div><!-- End Portfolio Item -->
-
-        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-          <div class="portfolio-content h-100">
-            <img src="assets/img/portfolio/books-2.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Books 2</h4>
-              <p>Lorem ipsum, dolor sit amet consectetur</p>
-              <a href="assets/img/portfolio/books-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-            </div>
-          </div>
-        </div><!-- End Portfolio Item -->
-
-        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-          <div class="portfolio-content h-100">
-            <img src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 3</h4>
-              <p>Lorem ipsum, dolor sit amet consectetur</p>
-              <a href="assets/img/portfolio/app-3.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-            </div>
-          </div>
-        </div><!-- End Portfolio Item -->
-
-        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-          <div class="portfolio-content h-100">
-            <img src="assets/img/portfolio/product-3.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Product 3</h4>
-              <p>Lorem ipsum, dolor sit amet consectetur</p>
-              <a href="assets/img/portfolio/product-3.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-            </div>
-          </div>
-        </div><!-- End Portfolio Item -->
-
-        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-          <div class="portfolio-content h-100">
-            <img src="assets/img/portfolio/branding-3.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Branding 3</h4>
-              <p>Lorem ipsum, dolor sit amet consectetur</p>
-              <a href="assets/img/portfolio/branding-3.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-            </div>
-          </div>
-        </div><!-- End Portfolio Item -->
-
-        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-          <div class="portfolio-content h-100">
-            <img src="assets/img/portfolio/books-3.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Books 3</h4>
-              <p>Lorem ipsum, dolor sit amet consectetur</p>
-              <a href="assets/img/portfolio/books-3.jpg" title="Branding 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-            </div>
-          </div>
-        </div><!-- End Portfolio Item -->
-
-      </div><!-- End Portfolio Container -->
-
-    </div>
-
-  </div>
-
-</section><!-- /Portfolio Section -->
 
 <!-- Team Section -->
 <section id="team" class="team section light-background">
 
   <!-- Section Title -->
   <div class="container section-title" data-aos="fade-up">
-    <h2>Team</h2>
-    <p>CHECK OUR TEAM</p>
+    <h2 class="text-primary">Lokasi</h2>
+    <p>Temukan Kami</p>
   </div><!-- End Section Title -->
 
   <div class="container">
-
-    <div class="row gy-5">
-
-      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-        <div class="member">
-          <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
-          <div class="member-info">
-            <h4>Walter White</h4>
-            <span>Chief Executive Officer</span>
-            <div class="social">
-              <a href=""><i class="bi bi-twitter-x"></i></a>
-              <a href=""><i class="bi bi-facebook"></i></a>
-              <a href=""><i class="bi bi-instagram"></i></a>
-              <a href=""><i class="bi bi-linkedin"></i></a>
+          <div class="col-lg-12">
+            <div class="maps-container" style="width: 100%; height: 450px;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.475172531558!2d107.64791799999999!3d-6.9531396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e9a1c635276f%3A0x5879dc2dd8c4a1b5!2sBerkah%20Expedisi!5e0!3m2!1sid!2sid!4v1743963469973!5m2!1sid!2sid" width="1300" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
-        </div>
-      </div><!-- End Team Member -->
-
-      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-        <div class="member">
-          <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
-          <div class="member-info">
-            <h4>Sarah Jhonson</h4>
-            <span>Product Manager</span>
-            <div class="social">
-              <a href=""><i class="bi bi-twitter-x"></i></a>
-              <a href=""><i class="bi bi-facebook"></i></a>
-              <a href=""><i class="bi bi-instagram"></i></a>
-              <a href=""><i class="bi bi-linkedin"></i></a>
-            </div>
-          </div>
-        </div>
-      </div><!-- End Team Member -->
-
-      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-        <div class="member">
-          <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
-          <div class="member-info">
-            <h4>William Anderson</h4>
-            <span>CTO</span>
-            <div class="social">
-              <a href=""><i class="bi bi-twitter-x"></i></a>
-              <a href=""><i class="bi bi-facebook"></i></a>
-              <a href=""><i class="bi bi-instagram"></i></a>
-              <a href=""><i class="bi bi-linkedin"></i></a>
-            </div>
-          </div>
-        </div>
-      </div><!-- End Team Member -->
-
-    </div>
 
   </div>
 
@@ -805,8 +318,8 @@
 
   <!-- Section Title -->
   <div class="container section-title" data-aos="fade-up">
-    <h2>Contact</h2>
-    <p>Necessitatibus eius consequatur</p>
+    <h2 class="text-primary">Kontak</h2>
+    <p>Hubungi Kami</p>
   </div><!-- End Section Title -->
 
   <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -818,15 +331,15 @@
           <div class="col-lg-12">
             <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200">
               <i class="bi bi-geo-alt"></i>
-              <h3>Address</h3>
-              <p>A108 Adam Street, New York, NY 535022</p>
+              <h3>Alamat</h3>
+              <p>Jl. Cipagalo Girang No.5, Margasari, Kec. Buahbatu, Kota Bandung, Jawa Barat 40286</p>
             </div>
           </div><!-- End Info Item -->
 
           <div class="col-md-6">
             <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
               <i class="bi bi-telephone"></i>
-              <h3>Call Us</h3>
+              <h3>Hubungi Kami</h3>
               <p>+1 5589 55488 55</p>
             </div>
           </div><!-- End Info Item -->
@@ -834,8 +347,8 @@
           <div class="col-md-6">
             <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="400">
               <i class="bi bi-envelope"></i>
-              <h3>Email Us</h3>
-              <p>info@example.com</p>
+              <h3>Kirim Email Kepada Kami</h3>
+              <p> berkahexpedisibdg@gmail.com</p>
             </div>
           </div><!-- End Info Item -->
 
