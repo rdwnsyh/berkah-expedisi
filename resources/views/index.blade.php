@@ -10,14 +10,13 @@
 <!-- Hero Section -->
 <section id="hero" class="hero section dark-background">
 
-  <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
+  <img src="images/truk.jpeg" alt="" data-aos="fade-in">
 
   <div class="container d-flex flex-column align-items-center">
-    <h2 data-aos="fade-up" data-aos-delay="100">PLAN. LAUNCH. GROW.</h2>
-    <p data-aos="fade-up" data-aos-delay="200">We are team of talented designers making websites with Bootstrap</p>
+    <h2 data-aos="fade-up" data-aos-delay="100">CEPAT. AMAN. TERPERCAYA.</h2>
+    <p data-aos="fade-up" data-aos-delay="200">Kami adalah mitra terpercaya untuk layanan ekspedisi dan pengiriman barang Anda</p>
     <div class="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
-      <a href="#about" class="btn-get-started">Get Started</a>
-      <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+      <a href="https://wa.me/6281120998115" target="_blank" class="btn-get-started">Hubungi Kami</a>
     </div>
   </div>
 
@@ -27,12 +26,12 @@
 
   
   <div class="container">
-    
     <!-- Section Title -->
     <div class="section-title" data-aos="fade-up">
       <h2 class="text-primary">Tentang Kami</h2>
       <p>Handal dan Terpercaya<br></p>
     </div><!-- End Section Title -->
+    
     <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
       
       <div class="tab-pane fade active show" id="features-tab-1">
@@ -56,7 +55,7 @@ bisnis anda dengan kondisi Unit yang sehat dan Taat peraturan
             </p>
           </div>
           <div class="col-lg-6 order-1 order-lg-2 text-center">
-            <img src="assets/img/working-1.jpg" alt="" class="img-fluid">
+            <img src="images/truk.jpeg" alt="" class="img-fluid">
           </div>
         </div>
       </div><!-- End Tab Content Item -->
@@ -79,17 +78,17 @@ bisnis anda dengan kondisi Unit yang sehat dan Taat peraturan
           <i class="bi bi-emoji-smile color-blue flex-shrink-0"></i>
           <div>
             <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Happy Clients</p>
+            <p>Pelanggan Puas</p>
           </div>
         </div>
       </div><!-- End Stats Item -->
 
       <div class="col-lg-3 col-md-6">
         <div class="stats-item d-flex align-items-center w-100 h-100">
-          <i class="bi bi-journal-richtext color-orange flex-shrink-0"></i>
+          <i class="bi bi-truck color-orange flex-shrink-0"></i>
           <div>
             <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Projects</p>
+            <p>Pengiriman Sukses</p>
           </div>
         </div>
       </div><!-- End Stats Item -->
@@ -98,8 +97,8 @@ bisnis anda dengan kondisi Unit yang sehat dan Taat peraturan
         <div class="stats-item d-flex align-items-center w-100 h-100">
           <i class="bi bi-headset color-green flex-shrink-0"></i>
           <div>
-            <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Hours Of Support</p>
+            <span data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Jam Layanan</p>
           </div>
         </div>
       </div><!-- End Stats Item -->
@@ -109,7 +108,7 @@ bisnis anda dengan kondisi Unit yang sehat dan Taat peraturan
           <i class="bi bi-people color-pink flex-shrink-0"></i>
           <div>
             <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Hard Workers</p>
+            <p>Staff Profesional</p>
           </div>
         </div>
       </div><!-- End Stats Item -->
@@ -140,7 +139,7 @@ bisnis anda dengan kondisi Unit yang sehat dan Taat peraturan
             <div class="service-content">
               <h3>Nesciunt Mete</h3>
               <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis.</p>
-              <a href="#" type="button" class="btn btn-primary mt-3">Learn More</a>
+              <a href="#" type="button" class="btn btn-primary mt-3">Detail Armada</a>
             </div>
           </div>
         </div>
@@ -153,7 +152,7 @@ bisnis anda dengan kondisi Unit yang sehat dan Taat peraturan
             <div class="service-content">
               <h3>Eosle Commodi</h3>
               <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
-              <a href="#" type="button" class="btn btn-primary mt-3">Learn More</a>
+              <a href="#" type="button" class="btn btn-primary mt-3">Detail Armada</a>
             </div>
           </div>
         </div>
@@ -166,7 +165,7 @@ bisnis anda dengan kondisi Unit yang sehat dan Taat peraturan
             <div class="service-content">
               <h3>Ledo Markt</h3>
               <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
-              <a href="#" type="button" class="btn btn-primary mt-3">Learn More</a>
+              <a href="#" type="button" class="btn btn-primary mt-3">Detail Armada</a>
             </div>
           </div>
         </div>
@@ -340,7 +339,7 @@ bisnis anda dengan kondisi Unit yang sehat dan Taat peraturan
             <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
               <i class="bi bi-telephone"></i>
               <h3>Hubungi Kami</h3>
-              <p>+1 5589 55488 55</p>
+              <p>+62 811-2099-811</p>
             </div>
           </div><!-- End Info Item -->
 
@@ -348,7 +347,7 @@ bisnis anda dengan kondisi Unit yang sehat dan Taat peraturan
             <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="400">
               <i class="bi bi-envelope"></i>
               <h3>Kirim Email Kepada Kami</h3>
-              <p> berkahexpedisibdg@gmail.com</p>
+              <p>berkahexpedisibdg@gmail.com</p>
             </div>
           </div><!-- End Info Item -->
 

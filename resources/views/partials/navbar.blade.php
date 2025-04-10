@@ -7,14 +7,14 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="/" class="active">Home</a></li>
-          <li><a href="/armada">Armada</a></li>
-          <li><a href="/tentang-kami">Tentang Kami</a></li>
+          <li><a href="/" class="{{ request()->is('/') ? 'active' : '' }}">Home</a></li>
+          <li><a href="/armada" class="{{ request()->is('armada') ? 'active' : '' }}">Armada</a></li>
+          <li><a href="/tentang-kami" class="{{ request()->is('tentang-kami') ? 'active' : '' }}">Tentang Kami</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="cta-btn" href="index.html#about">Hubungi Kami</a>
+      <a class="cta-btn" href="https://wa.me/6281120998115" target="_blank">Hubungi Kami</a>
 
     </div>
-  </header>
+</header>

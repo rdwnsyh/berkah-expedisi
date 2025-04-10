@@ -6,7 +6,7 @@
 
 @section('content')
   <!-- Page Title -->
-  <div class="page-title dark-background" style="background: url('images/unit.jpeg') no-repeat center center/cover;">
+  <div class="page-title dark-background" style="background: url('images/truk2.jpeg') no-repeat center center/cover;">
     <div class="container position-relative">
       <h1>Pilih Unit</h1>
       <p>Pilih unit sesuai dengan kebutuhan pengiriman Anda</p>
@@ -34,10 +34,9 @@
 
       <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
         <li data-filter="*" class="filter-active">All</li>
-        <li data-filter=".filter-app">App</li>
-        <li data-filter=".filter-product">Product</li>
-        <li data-filter=".filter-branding">Branding</li>
-        <li data-filter=".filter-books">Books</li>
+        <li data-filter=".filter-app">Pickup/Box</li>
+        <li data-filter=".filter-product">Truk Engkel Box</li>
+        <li data-filter=".filter-branding">Blind Van</li>
       </ul><!-- End Portfolio Filters -->
 
       <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
