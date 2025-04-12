@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\LoginController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,3 +23,12 @@ Route::get('/armada', function () {
 Route::get('/tentang-kami', function () {
     return view('about');
 });
+
+Route::get('/admin/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
+Route::post('/admin/login', [LoginController::class, 'authenticate']);
+Route::post('/admin/logout', [LoginController::class, 'logout']);
+
+Route::get('/admin/dashboard', function () {
+    return view('dashboard/index');
+})->middleware('auth');
+

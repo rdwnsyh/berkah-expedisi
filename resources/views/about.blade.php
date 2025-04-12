@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title', 'Unit - Berkah Expedisi')
+@section('title', 'Profil Perusahaan - Berkah Expedisi')
 
 @section('body-class', 'blog-page')
 

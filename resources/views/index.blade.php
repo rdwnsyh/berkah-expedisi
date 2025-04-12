@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title', 'Index - Selecao Bootstrap Template')
+@section('title', 'Home - Berkah Expedisi')
 
 @section('body-class', 'index-page')
 
