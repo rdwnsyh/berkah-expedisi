@@ -11,68 +11,20 @@
 
       <li class="nav-item">
         <a class="nav-link collapsed" href="#">
-          <i class="bi bi-menu-button-wide"></i><span>Components</span>
+          <i class="bi bi-menu-button-wide"></i><span>Kelola Armada</span>
         </a>
       </li>
 
       <li class="nav-item">
         <a class="nav-link collapsed" href="#">
-          <i class="bi bi-journal-text"></i><span>Forms</span>
+          <i class="bi bi-journal-text"></i><span>Kelola Kategori Armada</span>
         </a>
       </li>
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="#">
-          <i class="bi bi-layout-text-window-reverse"></i><span>Tables</span>
-        </a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="#">
-          <i class="bi bi-bar-chart"></i><span>Charts</span>
-        </a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="#">
-          <i class="bi bi-gem"></i><span>Icons</span>
-        </a>
-      </li>
-
-      <li class="nav-heading">Pages</li>
 
       <li class="nav-item">
         <a class="nav-link collapsed" href="#">
           <i class="bi bi-person"></i>
-          <span>Profile</span>
-        </a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="#">
-          <i class="bi bi-question-circle"></i>
-          <span>F.A.Q</span>
-        </a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="#">
-          <i class="bi bi-envelope"></i>
-          <span>Contact</span>
-        </a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="#">
-          <i class="bi bi-card-list"></i>
-          <span>Register</span>
-        </a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="#">
-          <i class="bi bi-box-arrow-in-right"></i>
-          <span>Login</span>
+          <span>Kelola Akun</span>
         </a>
       </li>
 
