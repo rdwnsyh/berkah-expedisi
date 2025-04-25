@@ -47,7 +47,9 @@
                         <form action="/dashboard/category-armada/{{ $category->slug }}" method="post" class="d-inline">
                           @method('delete')
                           @csrf
-                          <button class="badge bg-danger border-0" onclick="return confirm('Are you sure?')"><i class="bi bi-x-circle"></i></button>
+                          <button class="badge bg-danger border-0" onclick="return confirm('Apakah anda yakin ingin menghapus kategori ini?')">
+                            <i class="bi bi-x-circle"></i>
+                          </button>
                         </form>
                       </td>
                     </tr>

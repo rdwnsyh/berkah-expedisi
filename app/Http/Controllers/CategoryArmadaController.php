@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Support\Str;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 use App\Models\CategoryArmada;
 use \Cviebrock\EloquentSluggable\Services\SlugService;
 
@@ -40,14 +41,14 @@ class CategoryArmadaController extends Controller
         ]);
 
         if($request->file('images')) {
-            $validatedData['images'] = $request->file('images')->store('category-images');
+            $validatedData['images'] = $request->file('images')->store('armada-images', 'public');
         }
 
         $validatedData['slug'] = Str::slug($request->nama_kategori);
 
         CategoryArmada::create($validatedData);
 
-        return redirect('/dashboard/category-armada')->with('success', 'New category has been added!');
+        return redirect('/dashboard/category-armada')->with('success', 'Kategori baru berhasil ditambahkan!');
     }
 
     /**
@@ -63,7 +64,12 @@ class CategoryArmadaController extends Controller
      */
     public function edit(string $id)
     {
-        //
+        
+        $category = CategoryArmada::where('slug', $id)->firstOrFail();
+        return view('dashboard.kelolacategoryarmada.edit', [
+            'category' => $category,
+            
+        ]);
     }
 
     /**
@@ -71,7 +77,27 @@ class CategoryArmadaController extends Controller
      */
     public function update(Request $request, string $id)
     {
-        //
+        $category = CategoryArmada::findOrFail($id);
+        
+        $rules = [
+            'nama_kategori' => 'required|max:255',
+            'images' => 'image|file|max:1024'
+        ];
+
+        $validatedData = $request->validate($rules);
+
+        if($request->file('images')) {
+            if($category->images) {
+                Storage::disk('public')->delete($category->images);
+            }
+            $validatedData['images'] = $request->file('images')->store('armada-images', 'public');
+        }
+
+        $validatedData['slug'] = Str::slug($request->nama_kategori);
+
+        CategoryArmada::where('id', $id)->update($validatedData);
+
+        return redirect('/dashboard/category-armada')->with('success', 'Kategori berhasil diperbarui!');
     }
 
     /**
@@ -79,17 +105,28 @@ class CategoryArmadaController extends Controller
      */
     public function destroy(string $id)
     {
-        //
+        $category = CategoryArmada::where('slug', $id)->firstOrFail();
+        
+        if($category->images) {
+            Storage::disk('public')->delete($category->images);
+        }
+        
+        CategoryArmada::where('slug', $id)->delete();
+        
+        return redirect('/dashboard/category-armada')->with('success', 'Kategori berhasil dihapus!');
     }
 
     public function checkSlug(Request $request)
     {
-        $slug = Str::slug($request->nama);
+        $slug = Str::slug($request->nama_kategori);
+        
         // Check if slug exists
-        $count = CategoryArmada::where('slug', $slug)->count();
-        if($count > 0) {
+        $count = CategoryArmada::where('slug', 'LIKE', "{$slug}%")->count();
+        
+        if ($count > 0) {
             $slug = $slug . '-' . ($count + 1);
         }
+        
         return response()->json(['slug' => $slug]);
     }
 }

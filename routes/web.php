@@ -49,7 +49,7 @@ Route::middleware('auth')->group(function() {
     Route::get('/dashboard/category-armada', [CategoryArmadaController::class, 'index']);
     Route::get('/dashboard/category-armada/create', [CategoryArmadaController::class, 'create']);
     Route::post('/dashboard/category-armada', [CategoryArmadaController::class, 'store']);
-    Route::get('/dashboard/category-armada/{category:slug}', [CategoryArmadaController::class, 'show']);
+    // Route::get('/dashboard/category-armada/{category:slug}', [CategoryArmadaController::class, 'show']);
     Route::get('/dashboard/category-armada/{category:slug}/edit', [CategoryArmadaController::class, 'edit']);
     Route::put('/dashboard/category-armada/{category:slug}', [CategoryArmadaController::class, 'update']);
     Route::delete('/dashboard/category-armada/{category:slug}', [CategoryArmadaController::class, 'destroy']);

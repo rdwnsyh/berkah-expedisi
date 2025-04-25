@@ -34,7 +34,7 @@
                 <div class="col-12">
                   <label class="form-label">Slug</label>
                   <input type="text" class="form-control @error('slug') is-invalid @enderror" 
-                         id="slug" name="slug" value="{{ old('slug') }}" readonly>
+                         id="slug" hidden name="slug" value="{{ old('slug') }}" readonly>
                   @error('slug')
                     <div class="invalid-feedback">{{ $message }}</div>
                   @enderror
@@ -65,13 +65,15 @@
 
 @section('scripts')
 <script>
-  const nama = document.querySelector('#nama_kategori');
+  const nama_kategori = document.querySelector('#nama_kategori');
   const slug = document.querySelector('#slug');
 
-  nama.addEventListener('keyup', function() {
-    fetch('/dashboard/category-armada/checkSlug?nama=' + nama.value)
-      .then(response => response.json())
-      .then(data => slug.value = data.slug)
+  nama_kategori.addEventListener('change', function() {
+    let preslug = this.value;
+    preslug = preslug.toLowerCase()
+                     .replace(/ /g, '-')
+                     .replace(/[^\w-]+/g, '');
+    slug.value = preslug;
   });
 
   function previewImage() {
