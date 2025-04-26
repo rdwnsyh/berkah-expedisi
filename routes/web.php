@@ -28,7 +28,7 @@ Route::get('/tentang-kami', function () {
 
 Route::get('/admin/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
 Route::post('/admin/login', [LoginController::class, 'authenticate']);
-Route::post('/admin/logout', [LoginController::class, 'logout']);
+Route::post('/logout', [LoginController::class, 'logout']);
 
 Route::get('/dashboard', function () {
     return view('dashboard/index');
@@ -43,6 +43,7 @@ Route::middleware('auth')->group(function() {
     Route::get('/dashboard/armada/{armada:slug}/edit', [ArmadaController::class, 'edit']);
     Route::put('/dashboard/armada/{armada:slug}', [ArmadaController::class, 'update']);
     Route::delete('/dashboard/armada/{armada:slug}', [ArmadaController::class, 'destroy']);
+    Route::get('/dashboard/armada/checkSlug', [ArmadaController::class, 'checkSlug'])->middleware('auth');
 
     // Category Armada Routes
     Route::get('/dashboard/category-armada/checkSlug', [CategoryArmadaController::class, 'checkSlug']);

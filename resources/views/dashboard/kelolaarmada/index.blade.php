@@ -1,7 +1,6 @@
 @extends('dashboard.layouts.main')
 
 @section('container')
-<main id="main" class="main">
     <div class="pagetitle">
       <h1>Kelola Armada</h1>
       <nav>
@@ -39,7 +38,7 @@
                   @foreach ($armadas as $armada)
                     <tr>
                       <td>{{ $loop->iteration }}</td>
-                      <td>{{ $armada->category->name }}</td>
+                      <td>{{ $armada->category->nama_kategori }}</td>
                       <td>{{ $armada->nama_mobil }}</td>
                       <td>{{ $armada->ukuran }}</td>
                       <td>{{ $armada->berat }}</td>
@@ -53,7 +52,9 @@
                         <form action="/dashboard/armada/{{ $armada->slug }}" method="post" class="d-inline">
                           @method('delete')
                           @csrf
-                          <button class="badge bg-danger border-0" onclick="return confirm('Are you sure?')"><i class="bi bi-x-circle"></i></button>
+                          <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Apakah anda yakin ingin menghapus armada ini?')">
+                            <i class="bi bi-trash"></i>
+                          </button>
                         </form>
                       </td>
                     </tr>
@@ -67,5 +68,4 @@
         </div>
       </div>
     </section>
-</main>
 @endsection

@@ -26,7 +26,7 @@ class CategoryArmadaController extends Controller
     public function create()
     {
         return view('dashboard.kelolacategoryarmada.create', [
-            // 'categories' => CategoryArmada::all()
+            'categories' => CategoryArmada::all()
         ]);
     }
 
@@ -41,7 +41,7 @@ class CategoryArmadaController extends Controller
         ]);
 
         if($request->file('images')) {
-            $validatedData['images'] = $request->file('images')->store('armada-images', 'public');
+            $validatedData['images'] = $request->file('images')->store('category-armada-images', 'public');
         }
 
         $validatedData['slug'] = Str::slug($request->nama_kategori);
@@ -90,7 +90,7 @@ class CategoryArmadaController extends Controller
             if($category->images) {
                 Storage::disk('public')->delete($category->images);
             }
-            $validatedData['images'] = $request->file('images')->store('armada-images', 'public');
+            $validatedData['images'] = $request->file('images')->store('category-armada-images', 'public');
         }
 
         $validatedData['slug'] = Str::slug($request->nama_kategori);
