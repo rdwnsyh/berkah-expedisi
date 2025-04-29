@@ -13,7 +13,7 @@
   <img src="images/truk.jpeg" alt="" data-aos="fade-in">
 
   <div class="container d-flex flex-column align-items-center">
-    <h2 data-aos="fade-up" data-aos-delay="100">CEPAT. AMAN. TERPERCAYA.</h2>
+    <h2 data-aos="fade-up" data-aos-delay="100">HANDAL DAN TERPERCAYA</h2>
     <p data-aos="fade-up" data-aos-delay="200">Kami adalah mitra terpercaya untuk layanan ekspedisi dan pengiriman barang Anda</p>
     <div class="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
       <a href="https://wa.me/6281120998115" target="_blank" class="btn-get-started">Hubungi Kami</a>

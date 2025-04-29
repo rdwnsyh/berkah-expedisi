@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('category_armadas', function (Blueprint $table) {
             $table->id();
             $table->string('nama_kategori');
-            $table->string('slug')->unique();
+            $table->string('slug');
             $table->string('images');
             $table->timestamps();
         });

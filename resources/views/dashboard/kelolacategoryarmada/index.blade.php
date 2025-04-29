@@ -27,7 +27,6 @@
                   <tr>
                     <th>No</th>
                     <th>Nama Kategori</th>
-                    <th>Slug</th>
                     <th>Gambar</th>
                     <th>Aksi</th>
                   </tr>
@@ -37,18 +36,17 @@
                     <tr>
                       <td>{{ $loop->iteration }}</td>
                       <td>{{ $category->nama_kategori }}</td>
-                      <td>{{ $category->slug }}</td>
                       <td>
                         <img src="{{ asset('storage/' . $category->images) }}" alt="{{ $category->nama_kategori }}" width="70">
                       </td>
                       <td>
-                        <a href="/dashboard/category-armada/{{ $category->slug }}" class="badge bg-info"><i class="bi bi-eye"></i></a>
-                        <a href="/dashboard/category-armada/{{ $category->slug }}/edit" class="badge bg-warning"><i class="bi bi-pencil"></i></a>
+                        <a href="/dashboard/category-armada/{{ $category->slug }}" class="btn btn-info btn-sm"><i class="bi bi-eye"></i></a>
+                        <a href="/dashboard/category-armada/{{ $category->slug }}/edit" class="btn btn-warning btn-sm"><i class="bi bi-pencil"></i></a>
                         <form action="/dashboard/category-armada/{{ $category->slug }}" method="post" class="d-inline">
                           @method('delete')
                           @csrf
-                          <button class="badge bg-danger border-0" onclick="return confirm('Apakah anda yakin ingin menghapus kategori ini?')">
-                            <i class="bi bi-x-circle"></i>
+                          <button class="btn btn-danger btn-sm border-0" onclick="return confirm('Apakah anda yakin ingin menghapus kategori ini?')">
+                          <i class="bi bi-trash"></i>
                           </button>
                         </form>
                       </td>

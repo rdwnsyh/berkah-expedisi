@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->foreignId('category_id');
             $table->string('nama_mobil');
-            $table->string('slug')->unique();
+            $table->string('slug');
             $table->string('deskripsi');
             $table->string('ukuran');
             $table->string('berat');

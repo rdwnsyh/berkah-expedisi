@@ -32,7 +32,6 @@
                 </div>
 
                 <div class="col-12">
-                  <label class="form-label">Slug</label>
                   <input type="text" class="form-control @error('slug') is-invalid @enderror" 
                          id="slug" hidden name="slug" value="{{ old('slug') }}" readonly>
                   @error('slug')
