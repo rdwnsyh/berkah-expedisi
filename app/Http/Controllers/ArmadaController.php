@@ -16,7 +16,11 @@ class ArmadaController extends Controller
     public function index()
     {
         return view('dashboard.kelolaarmada.index', [
-            'armadas' => Armada::with('category')->get()
+            'armadas' => Armada::with('category')
+                        ->filter(request(['search']))
+                        ->latest()
+                        ->paginate(10)
+                        ->withQueryString()
         ]);
     }
 

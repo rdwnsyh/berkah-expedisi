@@ -23,8 +23,9 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('password123')
         ]);
 
-        // $this->call([
-        //     CategoryArmadaSeeder::class
-        // ]);
+        $this->call([
+            CategoryArmadaSeeder::class,
+            ArmadaSeeder::class
+        ]);
     }
 }

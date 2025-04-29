@@ -26,4 +26,19 @@ class Armada extends Model
     {
         return $this->belongsTo(CategoryArmada::class);
     }
+
+    public function scopeFilter($query, array $filters)
+    {
+        $query->when($filters['search'] ?? false, function($query, $search) {
+            return $query->where(function($query) use ($search) {
+                $query->where('nama_mobil', 'like', '%' . $search . '%')
+                    ->orWhere('deskripsi', 'like', '%' . $search . '%')
+                    ->orWhere('ukuran', 'like', '%' . $search . '%')
+                    ->orWhere('muatan', 'like', '%' . $search . '%')
+                    ->orWhereHas('category', function($query) use ($search) {
+                        $query->where('nama_kategori', 'like', '%' . $search . '%');
+                    });
+            });
+        });
+    }
 }

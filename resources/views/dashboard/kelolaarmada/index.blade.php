@@ -11,6 +11,13 @@
       </nav>
     </div>
 
+    @if(session()->has('success'))
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            {{ session('success') }}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    @endif
+
     <section class="section">
       <div class="row">
         <div class="col-lg-12">
@@ -18,7 +25,12 @@
             <div class="card-body">
               <h5 class="card-title">Data Armada</h5>
               
-              <a href="/dashboard/armada/create" class="btn btn-primary mb-3"><i class="bi bi-plus"></i> Tambah Armada</a>
+              <div class="row mb-3">
+                <div class="col-md-6">
+                  <a href="/dashboard/armada/create" class="btn btn-primary"><i class="bi bi-plus"></i> Tambah Armada</a>
+                </div>
+                
+              </div>
 
               <!-- Table with stripped rows -->
               <table class="table datatable">
@@ -47,8 +59,7 @@
                         <img src="{{ asset('storage/' . $armada->image) }}" alt="{{ $armada->nama_mobil }}" width="70">
                       </td>
                       <td>
-                        <a href="/dashboard/armada/{{ $armada->slug }}" class="badge bg-info"><i class="bi bi-eye"></i></a>
-                        <a href="/dashboard/armada/{{ $armada->slug }}/edit" class="badge bg-warning"><i class="bi bi-pencil"></i></a>
+                        <a href="/dashboard/armada/{{ $armada->slug }}/edit" class="btn btn-warning btn-sm"><i class="bi bi-pencil"></i></a>
                         <form action="/dashboard/armada/{{ $armada->slug }}" method="post" class="d-inline">
                           @method('delete')
                           @csrf
@@ -63,6 +74,10 @@
               </table>
               <!-- End Table with stripped rows -->
 
+              <!-- Pagination -->
+              <div class="mt-3">
+                {{ $armadas->links('vendor.pagination.bootstrap-5') }}
+              </div>
             </div>
           </div>
         </div>

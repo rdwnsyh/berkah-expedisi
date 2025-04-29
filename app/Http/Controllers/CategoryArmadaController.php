@@ -16,7 +16,10 @@ class CategoryArmadaController extends Controller
     public function index()
     {
         return view('dashboard.kelolacategoryarmada.index', [
-            'categories' => CategoryArmada::all()
+            'categories' => CategoryArmada::filter(request(['search']))
+                            ->latest()
+                            ->paginate(10)
+                            ->withQueryString()
         ]);
     }
 

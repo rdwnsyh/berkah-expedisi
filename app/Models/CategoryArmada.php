@@ -16,4 +16,16 @@ class CategoryArmada extends Model
         'slug',
         'images'
     ];
+
+    public function scopeFilter($query, array $filters)
+    {
+        $query->when($filters['search'] ?? false, function($query, $search) {
+            return $query->where('nama_kategori', 'like', '%' . $search . '%');
+        });
+    }
+
+    public function armadas()
+    {
+        return $this->hasMany(Armada::class, 'category_id');
+    }
 }
