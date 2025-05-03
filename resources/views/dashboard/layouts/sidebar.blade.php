@@ -20,7 +20,7 @@
       </li>
 
       <li class="nav-item">
-        <a class="nav-link {{ Request::is('dashboard/users*') ? '' : 'collapsed' }}" href="/dashboard/users">
+        <a class="nav-link {{ Request::is('dashboard/kelola-akun*') ? '' : 'collapsed' }}" href="/dashboard/kelola-akun">
           <i class="bi bi-person"></i>
           <span>Kelola Akun</span>
         </a>

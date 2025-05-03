@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\ArmadaController;
 use App\Http\Controllers\CategoryArmadaController;
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -54,5 +55,8 @@ Route::middleware('auth')->group(function() {
     Route::get('/dashboard/category-armada/{category:slug}/edit', [CategoryArmadaController::class, 'edit']);
     Route::put('/dashboard/category-armada/{category:slug}', [CategoryArmadaController::class, 'update']);
     Route::delete('/dashboard/category-armada/{category:slug}', [CategoryArmadaController::class, 'destroy']);
+
+    // Kelola Akun Routes
+    Route::resource('/dashboard/kelola-akun', UserController::class);
 });
 

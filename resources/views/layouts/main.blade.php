@@ -62,14 +62,14 @@
             <p><strong>Email:</strong> <span>berkahexpedisibdg@gmail.com</span></p>
           </div>
           <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
+            <a href="" target="_blank"><i class="bi bi-twitter-x"></i></a>
+            <a href="" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/cv.berkah.expedisi?igsh=MXFpN3lqdzFrOWs0Nw==" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href="" target="_blank"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
 
-        <div class="col-lg-2 col-md-3 footer-links">
+        <div class="col-lg-4 col-md-3 footer-links">
           <h4>Menu</h4>
           <ul>
             <li><i class="bi bi-chevron-right"></i> <a href="/">Home</a></li>
@@ -78,7 +78,7 @@
           </ul>
         </div>
 
-        <div class="col-lg-2 col-md-3 footer-links">
+        <div class="col-lg-4 col-md-3 footer-links">
           <h4>Layanan Kami</h4>
           <ul>
             <li><i class="bi bi-chevron-right"></i> <a href="#">Pengiriman Domestik</a></li>
@@ -86,17 +86,6 @@
             <li><i class="bi bi-chevron-right"></i> <a href="#">Kargo</a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="#">Ekspedisi</a></li>
           </ul>
-        </div>
-
-        <div class="col-lg-4 col-md-12 footer-newsletter">
-          <h4>Our Newsletter</h4>
-          <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
-          <form action="forms/newsletter.php" method="post" class="php-email-form">
-            <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
-            <div class="loading">Loading</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Your subscription request has been sent. Thank you!</div>
-          </form>
         </div>
 
       </div>
